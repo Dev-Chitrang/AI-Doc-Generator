@@ -19,7 +19,7 @@ AI Doc Generator is a powerful tool designed to automate the creation of profess
 1. **Set Up Environment**: Ensure Python is installed and the OpenAI API key is correctly configured in the environment.
 2. **Execute the Script**: Run the `autodocgen.py` script from the command line.
    ```sh
-   python autodocgen.py
+   python autodocgen.py your_directory_path
    ```
 3. **Monitor Output**: The script will provide console outputs indicating the progress of file processing and any errors encountered.
 
