@@ -1,4 +1,3 @@
-```markdown
 # AI Doc Generator
 
 ## Description
@@ -14,6 +13,7 @@ AI Doc Generator is a powerful tool designed to automate the creation of profess
 - **Python**: The core programming language for implementing the tool.
 - **OpenAI API**: Utilized for AI-driven docstring and README generation.
 - **GPT-4o Model**: Powers the natural language processing capabilities for generating documentation content.
+(NOTE:- You need to have an OpenAI API key to use this tool, Store the API key in .env file.)
 
 ## How to Run
 1. **Set Up Environment**: Ensure Python is installed and the OpenAI API key is correctly configured in the environment.
@@ -27,7 +27,7 @@ AI Doc Generator is a powerful tool designed to automate the creation of profess
 Suppose you have a project directory located at `D:\Projects\MyProject`. To generate documentation, navigate to the directory containing `autodocgen.py`, and execute the following command:
 
 ```sh
-python autodocgen.py
+python autodocgen.py your_directory_path
 ```
 
 The tool will scan all code files within the directory, generate docstrings, and create a `README.md` file summarizing the project's details. This process greatly reduces the time and effort required to produce high-quality project documentation.
@@ -48,4 +48,3 @@ The tool will scan all code files within the directory, generate docstrings, and
 ```
 
 By automating the documentation process, AI Doc Generator allows developers to focus on coding while ensuring their projects are well-documented and accessible to collaborators and users.
-```
